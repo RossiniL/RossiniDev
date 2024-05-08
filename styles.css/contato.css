@@ -1,0 +1,74 @@
+.bloco__contato{
+    display:flex;
+}
+
+.bloco__texto_contato{
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+.titulo__contato{
+    font-size: 32px;
+    color: green;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0.8em auto;
+    width: 80%;
+    text-align: center;
+}
+
+.descricao_contato{
+    color: white;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+
+.formulario__contato{
+    width: 50%;
+    text-align: center;
+    margin-right: 0;
+}
+
+.botao_form{
+	width:100%;
+	padding: 12px;
+    background: black;
+	color: white;
+	font-size: 16px;
+    border: 1px solid white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.botao__curriculo{
+    text-decoration: none;
+    margin: 0 9em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    background: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.texto_botao{
+    display: inline-block;
+    margin: 2em;
+    text-align: center;
+    width:60%;
+}
+
+.texto__contato{
+    padding: 0.9em 0;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>RossiniDev</title>
+
+    <link rel="stylesheet" href="../styles.css/reset.css">
+    <link rel="stylesheet" href="../styles.css/style.css">
+    <link class="lato-regular" rel="preconnect" href="https://fonts.googleapis.com">
+    <link class="lato-regular" rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link class="lato-regular" href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="../img/icone.png">
+
+</head>
+
+<body class="corpo">
+    <header>
+        <div class="caixa">
+            <a href="index.html"><img class="logo" src="/img/logo.png"></a>
+            <nav>
+                <ul class="listacabeca">
+                    <li class="itensc"><a class="link" href="projetos.html">Projetos</a></li>
+                    <li class="itensc"><a class="link" href="sobre.html">Sobre</a></li>
+                    <li class="itensc"><a class="link" href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="bloco__contato">
+        <div class="bloco__texto_contato">
+
+
+            <h2 class="titulo__contato">Entre em contato comigo!</h2>
+
+            <div class="texto_botao">
+
+                <p class="texto__contato">Aqui está meu e-mail: <em>leonardo_rossini@hotmail.com</em></p>
+
+                <p class="texto__contato">Você também pode me encaminhar um e-mail preenchendo o formulário ao lado ou então me
+                    contatando pelo Linkedin</p>
+
+                <p class="texto__contato">Também é possível visualizar meu currículo baixando ele no botão abaixo&#11123;</p>
+
+                
+            </div>
+            <a href="/CV LEONARDO ROSSINI .pdf" download="Currículo Leonardo Rossini Pereira"
+                class="botao__curriculo">Baixe meu currículo! &#11123;</a>
+        </div>
+        <div class="formulario">
+            <form class="formulario__contato">
+                <label for="nomesobrenome" class="descricao_contato">Nome e sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="José da Silva">
+
+                <label for="email" class="descricao_contato">Email</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                <label for="telefone" class="descricao_contato">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+                <label for="mensagem" class="descricao_contato">Mensagem</label>
+                <textarea cols="5" rows="4" id="mensagem" class="input-padrao" required
+                    placeholder="Escreva aqui sua mensagem"></textarea>
+
+                <input type="submit" value="Enviar contato" class="botao_form">
+            </form>
+        </div>
+    </div>
+
+
+    <footer>
+        <p class="rodape">&copy;Todos os direitos reservados</p>
+    </footer>
+</body>
+
+</html>

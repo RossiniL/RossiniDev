@@ -1,0 +1,18 @@
+.corpo{
+	background: var(--cor-de-fundo);
+	min-height: 100vh;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+}
+
+.texto_principal{
+	color: white;
+	text-align: center;
+	font-size: 68px;
+}
+
+@media screen and (min-width:1024px) {
+    .texto_principal{
+        font-size: 38px;
+    }
+}

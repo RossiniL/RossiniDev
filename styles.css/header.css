@@ -1,0 +1,63 @@
+header{
+	background-color: var(--cor-header);
+	margin-bottom: 10vw;
+}
+
+.caixa{
+	text-align: center;
+}
+
+.logo{
+	width: 50vw;
+}
+
+.listacabeca{
+	display: flex;
+	justify-content: center;
+}
+
+.itensc{
+	font-size: 46px;
+	font-weight: 700;
+	display: flex;
+	padding: 0 1em;
+}
+
+.link{
+	text-decoration: none;
+	color: white;
+}
+
+.itensc:hover{
+    background-color: var(--cor-header);
+}
+
+@media screen and (min-width: 1024px) {
+    .logo{
+        width: 220px;
+    }
+
+    .caixa{
+        position: relative;
+        width: 1080px;
+        display: flex;
+        margin: 0 auto;
+        color: #e6e6e6;
+    }
+
+    .listacabeca{
+        position: absolute;
+        display: flex;
+        top: 110px;
+        right: 0px;
+    }
+
+    .itensc{
+        padding: 0 0.5em;
+    }
+
+    header{
+        background-color: var(--cor-header);
+        margin-bottom: 3vw;
+    }
+}
